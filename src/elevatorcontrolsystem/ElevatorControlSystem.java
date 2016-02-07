@@ -2,7 +2,7 @@ package elevatorcontrolsystem;
 
 public class ElevatorControlSystem {
     public static void main(String[] args) throws InvalidNumber {
-        //System.out.println("Hello");
+        //System.out.println("Hello world!");
         int numberOfElevators=2;
         int numberOfFloors=20;
         ElevatorControl system=new ElevatorControl(numberOfElevators, numberOfFloors); //5 elevators and 20 floors
@@ -20,6 +20,7 @@ public class ElevatorControlSystem {
              System.out.println(system.elevators.get(idx).status());
       }
        System.out.println("Quit");
+
     }
     
 }
