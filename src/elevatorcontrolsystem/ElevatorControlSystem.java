@@ -19,6 +19,7 @@ public class ElevatorControlSystem {
              System.out.println(system.elevators.get(idx).currentFloor());
              System.out.println(system.elevators.get(idx).status());
       }
+       System.out.println("Quit");
     }
     
 }
